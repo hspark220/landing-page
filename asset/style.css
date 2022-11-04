@@ -1,0 +1,31 @@
+/* fonts and colors */
+@font-face {
+    font-family: 'Roboto';
+    src: url("./font/Roboto/Roboto-Regular.ttf"),
+         url("./font/Roboto/Roboto-Black.ttf"),
+         url("./font/Roboto/Roboto-Italic.ttf")
+}
+
+body {
+    font-family: "Roboto", san-serif;
+}
+
+header {
+    background-color: #1F2937;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+header a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
