@@ -19,7 +19,7 @@ ul {
 }
 
 button {
-    font-weight: bold;
+    font-weight: normal;
     font-size: 16px;
     color: #F9FAF8;
     background-color: #3882F6;
@@ -75,6 +75,11 @@ header a {
     font-size: 24px;
     font-weight: bold;
     
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    color: #F9FAF8;
 }
 
 /* 
@@ -214,4 +219,27 @@ header button {
     display: flex;
     justify-content: flex-end;
     margin: 0;
+}
+
+/* call to action layout */
+.call-to-action {
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px;
+    border-radius: 8px;
+    padding: 48px;
+}
+
+.call-to-action-text h2, .call-to-action-text p {
+    margin: 0;
+    padding: 0;
+}
+
+.call-to-action button {
+    border-color: #F9FAF8;
+    border-radius: 8px;
+    padding: 8px 24px;
+    
 }
