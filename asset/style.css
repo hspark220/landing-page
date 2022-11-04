@@ -10,6 +10,21 @@ body {
     font-family: "Roboto", san-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    font-weight: bold;
+    font-size: 16px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+}
+
 /* header font and background color */
 
 header, footer {
@@ -18,8 +33,13 @@ header, footer {
 
 h1 {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 1000;
     color: #F9FAF8;
+}
+
+header p {
+    color: #F9FAF8;
+    font-size: 18px;
 }
 
 header a {
@@ -32,9 +52,6 @@ header a {
     color: #F9FAF8;
 }
 
-header button {
-    background-color: #3882F6;
-}
 
 /* content font  + background color*/
 .some-random-info h5{
@@ -53,3 +70,74 @@ header button {
     color: #1F2937;
 }
 
+/* 
+Positioning and Alignment
+Margin padding and border as well
+*/
+
+header, body {
+    margin: 0;
+}
+
+/* header */
+
+header {
+    padding: 8px 15%;
+}
+
+/* navigation bar */
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.nav-bar ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+/* main header */
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    margin-bottom: 100px;
+}
+
+.main-header-text {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    
+}
+
+.main-header-text h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.main-header-text p {
+    margin: 10px 0;
+}
+
+header button {
+    flex-grow: 0;
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: 0;
+}
+
+.image-placeholder {
+    background-color: grey;
+    height: 250px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
