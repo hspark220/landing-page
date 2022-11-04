@@ -82,6 +82,12 @@ header a {
     color: #F9FAF8;
 }
 
+footer {
+    color: #F9FAF8;
+    font-size: 20px;
+    text-align: center;
+}
+
 /* 
 Positioning and Alignment
 Margin padding and border as well
@@ -241,5 +247,12 @@ header button {
     border-color: #F9FAF8;
     border-radius: 8px;
     padding: 8px 24px;
-    
+}
+
+/* footer layout */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
 }
